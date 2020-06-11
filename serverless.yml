@@ -13,12 +13,6 @@ package:
     - ./bin/**
 
 functions:
-  hello:
-    handler: bin/hello
-    events:
-      - http:
-          path: hello
-          method: get
   eatWhat:
     handler: bin/eatWhat
     events:
